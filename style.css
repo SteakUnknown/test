@@ -1,6 +1,21 @@
+/* Style the topbar background */
 .topbar {
-  background-color: #4CAF50;
-  padding: 10px;
-  text-align: center;
+  background-color: #333; /* You can change this to any color you like */
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center; /* Center the links */
+  gap: 15px; /* Space between links */
+}
+
+/* Style the links inside the topbar */
+.topbar-link {
   color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Optional: add hover effect to links */
+.topbar-link:hover {
+  text-decoration: underline;
+  color: #ffcc00; /* Change color on hover */
 }
